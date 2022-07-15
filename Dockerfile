@@ -10,7 +10,6 @@ RUN apt-get update && apt-get install -y \
     software-properties-common
 
 COPY package.json package-lock.json tsconfig.json tsconfig.build.json ./
-COPY start.sh .
 COPY src ./src
 
 RUN npm install
