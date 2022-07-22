@@ -1,11 +1,10 @@
-export interface IItem {
-    uuid: string;
+import {IGeneralEntity} from "./IGeneralEntity";
+
+export interface IItem extends IGeneralEntity{
     restaurantUuid: string;
     title: string;
     description: string;
     photos: Array<string>;
     isAvailable: boolean;
     price: number;
-    deleted: boolean;
-    createdAt: Date;
 }
