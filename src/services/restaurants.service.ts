@@ -1,7 +1,7 @@
 import {Injectable} from '@nestjs/common';
-import {LoggerService} from "../helpers";
 import {version as uuidVersion} from 'uuid';
 import {validate as uuidValidate} from 'uuid';
+import {LoggerService} from "./logger.service";
 
 function uuidValidateV4(uuid) {
     return uuidValidate(uuid) && uuidVersion(uuid) === 4;

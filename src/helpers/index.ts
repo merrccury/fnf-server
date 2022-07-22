@@ -1,6 +1,6 @@
-import {LoggerService} from '../services/logger.service';
+import { LinkBuilder } from './LinkBuilder';
 import {DatabaseConnection} from './mongo';
 
 export {
-    DatabaseConnection, LoggerService
+    DatabaseConnection, LinkBuilder,
 }
