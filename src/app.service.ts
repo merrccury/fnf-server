@@ -1,8 +1,11 @@
-import { Injectable } from '@nestjs/common';
+import {Injectable} from '@nestjs/common';
+import {LoggerService} from "./helpers";
 
 @Injectable()
 export class AppService {
-  getHello(): string {
-    return `Hello World! PORT=${process.env.PORT}`;
-  }
+    constructor() {}
+
+    getHello(): string {
+        return `Started on PORT$=$${process.env.PORT}`;
+    }
 }
