@@ -1,9 +1,15 @@
-export class LinkBuilder{
-    linkTo(url: string, name: string): string {
-        return `<a href="${url}">${name}</a>`;
+import {EntityType} from "src/enums";
+import {IGeneralEntity} from "../interfaces";
 
+export class LinkBuilder<M extends IGeneralEntity> {
+    constructor(model: M, entityType: EntityType) {
+        this.model = model;
+        this.entityType = entityType;
     }
-    linkToWith(url: string, name: string, rel: string): string {
-        return `<a href="${url}" rel="${rel}">${name}</a>`;
-    }
+
+    private readonly model: M;
+    private readonly entityType: EntityType;
+
+    
+
 }

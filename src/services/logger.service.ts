@@ -1,6 +1,7 @@
 import {Logger} from "winston";
 import {ILogger} from "../interfaces";
 import * as  moment from "moment";
+import {Injectable} from "@nestjs/common";
 
 const winston = require('winston');
 

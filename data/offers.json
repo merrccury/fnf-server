@@ -1,0 +1,29 @@
+[
+  {
+    "restaurantUuid": "9939bf70-5942-4e48-ae91-d4df09a9a78b",
+    "title": "Recommended",
+    "items": [],
+    "schedule": [],
+    "createdAt": "2022-07-23T12:50:29.617Z",
+    "uuid": "661c24e4-9edd-4142-9b87-c11caec8289e",
+    "deleted": false
+  },
+  {
+    "restaurantUuid": "9939bf70-5942-4e48-ae91-d4df09a9a78b",
+    "title": "Dinner",
+    "items": [],
+    "schedule": [],
+    "createdAt": "2022-07-23T12:50:41.317Z",
+    "uuid": "1451f625-37be-4199-87df-0e3848bfd42b",
+    "deleted": false
+  },
+  {
+    "restaurantUuid": "9939bf70-5942-4e48-ae91-d4df09a9a78b",
+    "title": "Launch",
+    "items": [],
+    "schedule": [],
+    "createdAt": "2022-07-23T12:52:11.375Z",
+    "uuid": "9aeaabcb-b790-4346-818a-089597dc7c1c",
+    "deleted": false
+  }
+]

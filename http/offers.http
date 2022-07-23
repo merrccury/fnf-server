@@ -1,0 +1,14 @@
+POST http://localhost:8080/offers
+Content-Type: application/json
+
+{
+  "restaurantUuid": "96a7e326-6949-43e9-a469-3bd55aea882c",
+  "title": "Launch",
+  "items": [],
+  "schedule": []
+}
+###
+
+GET http://localhost:8080/offers
+
+###

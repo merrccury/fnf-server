@@ -1,4 +1,5 @@
 import {LoggerService} from "./logger.service";
-import {RestaurantsService} from "./restaurants.service";
+import { OfferService } from "./offer.service";
+import {RestaurantService} from "./restaurant.service";
 
-export {LoggerService, RestaurantsService}
+export {LoggerService, RestaurantService, OfferService}

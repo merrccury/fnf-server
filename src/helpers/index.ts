@@ -1,6 +1,5 @@
-import { LinkBuilder } from './LinkBuilder';
-import {DatabaseConnection} from './mongo';
+import {LinkBuilder} from './LinkBuilder';
 
 export {
-    DatabaseConnection, LinkBuilder,
+    LinkBuilder,
 }

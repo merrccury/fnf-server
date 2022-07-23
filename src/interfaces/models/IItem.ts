@@ -6,5 +6,6 @@ export interface IItem extends IGeneralEntity{
     description: string;
     photos: Array<string>;
     isAvailable: boolean;
+    compound: string[];
     price: number;
 }
